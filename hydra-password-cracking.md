@@ -1,7 +1,4 @@
-
-# cybersecurity-labs
-
-<h3>Using Hydra to Crack Passwords</h3>
+# Using Hydra to Crack Passwords
 
 <p>1. In a controlled lab environment in Labex, I used several basic login attempts to understand how an authentication page responds to an input. Since these inputs are incorrect, the message was a generic "Invalid Username or Password!"</p>
 
