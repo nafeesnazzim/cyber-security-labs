@@ -45,4 +45,4 @@ Controls identified in the lab that defend against this kind of attack:
 - LabEx guided lab environment
 - `head` (Linux)
 
-> **Status:** This writeup covers the preparation stage only. The automated attack with Hydra hasn't been run yet; this writeup will be extended once it has.
+> **Status:** This writeup covers the preparation stage only. The automated attack with Hydra hasn't been run yet; a follow-up writeup will cover it.
