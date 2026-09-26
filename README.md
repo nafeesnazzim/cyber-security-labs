@@ -11,7 +11,7 @@ Hands-on practice environment I built and maintain alongside my BSc (Hons) Cyber
 | `writeups/`, `hydra-password-cracking.md` | Write-ups from LabEx's guided labs |
 
 ## Tools practised in the lab
-Wireshark (packet analysis) · Nmap and OpenVAS (vulnerability scanning) · Metasploit · Linux (Kali) and Windows administration · Python and Bash
+Wireshark (packet analysis) · Nmap and OpenVAS (vulnerability scanning) · Metasploit · Linux (Debian, Kali) and Windows administration · Python and Bash
 
 ## Ethics
 Everything here is used only against machines I own inside an isolated host-only network. Do not scan or test systems you do not have permission to test.
