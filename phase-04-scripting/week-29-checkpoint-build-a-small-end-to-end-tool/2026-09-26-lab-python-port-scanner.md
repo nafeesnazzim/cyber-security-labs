@@ -1,6 +1,19 @@
-# Port Scanner
+---
+title: "Python TCP Port Scanner"
+date: 2026-09-26
+type: lab
+phase: 4
+week: 29
+source: Homelab
+tools: [Python, socket]
+tags: [python, port-scanning, networking, tooling]
+---
 
-A Python TCP connect scanner built with the `socket` module and tested against hosts in my isolated home lab (see [lab-setup](../lab-setup/README.md)).
+# Python TCP Port Scanner
+
+Source code: [`port-scanner/port_scanner.py`](port-scanner/port_scanner.py)
+
+A Python TCP connect scanner built with the `socket` module and tested against hosts in my isolated home lab (see [homelab build](../../phase-03-operating-systems/week-22-homelab-build/2026-09-26-lab-homelab-build.md)).
 
 ## What it does
 For each port in the chosen range, the scanner attempts a full TCP connection with `connect_ex`. If the connection succeeds, the port is reported as open, together with its usual service name. Ports are scanned in parallel threads to keep scans fast.
@@ -8,13 +21,13 @@ For each port in the chosen range, the scanner attempts a full TCP connection wi
 ## Usage
 ```bash
 # Scan the first 1024 ports of a lab VM
-python3 port_scanner.py 192.168.56.101
+python3 port-scanner/port_scanner.py 192.168.56.101
 
 # Scan specific ports
-python3 port_scanner.py 192.168.56.101 -p 22,80,443
+python3 port-scanner/port_scanner.py 192.168.56.101 -p 22,80,443
 
 # Full range with a longer timeout and fewer parallel connections
-python3 port_scanner.py 192.168.56.101 -p 1-65535 -t 1 -w 50
+python3 port-scanner/port_scanner.py 192.168.56.101 -p 1-65535 -t 1 -w 50
 ```
 
 | Option | Meaning | Default |
