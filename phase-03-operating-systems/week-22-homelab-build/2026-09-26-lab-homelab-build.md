@@ -1,4 +1,15 @@
-# Lab Setup
+---
+title: "Homelab Build: Isolated VirtualBox Lab"
+date: 2026-09-26
+type: lab
+phase: 3
+week: 22
+source: Homelab
+tools: [VirtualBox, Kali Linux, Windows, Wireshark, Nmap, OpenVAS, Metasploit]
+tags: [homelab, virtualbox, network-isolation, lab-safety]
+---
+
+# Homelab Build: Isolated VirtualBox Lab
 
 ## Purpose
 An isolated VirtualBox environment for practising packet analysis, vulnerability scanning, exploitation and systems administration without touching my home network or the internet.
