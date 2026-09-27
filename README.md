@@ -8,7 +8,12 @@ Hands-on practice environment I built and maintain alongside my BSc (Hons) Cyber
 | `lab-setup/` | How my isolated VirtualBox lab is built (Kali Linux + Windows on a host-only network) |
 | `port-scanner/` | A Python TCP port scanner using the `socket` module, tested against my own lab hosts |
 | `ROADMAP.md` | My self-designed cloud security learning roadmap and progress |
-| `writeups/`, `hydra-password-cracking.md` | Write-ups from LabEx's guided labs |
+| `writeups/` | Lab write-ups, grouped by category (index below) |
+
+## Writeups
+| Date | Writeup | Category | ATT&CK | Tools |
+|---|---|---|---|---|
+| 2026-02-17 | [Dictionary Attack Prep: Login Responses and Wordlists](writeups/authentication/2026-02-17-dictionary-attack-prep.md) | Authentication | [T1110.001](https://attack.mitre.org/techniques/T1110/001/) | head, web browser |
 
 ## Tools practised in the lab
 Wireshark (packet analysis) · Nmap and OpenVAS (vulnerability scanning) · Metasploit · Linux (Debian, Kali) and Windows administration · Python and Bash
