@@ -23,7 +23,7 @@ I'm working through a self-designed **71-week roadmap**, from foundations and ne
 | [5. Core Security Concepts](phase-05-core-security-concepts/) | 30–35 | ⬜⬜⬜⬜⬜⬜ 0/6 | 0 |
 | [6. Offensive Fundamentals](phase-06-offensive-fundamentals/) | 36–43 | ⬜⬜⬜⬜⬜⬜🟡⬜ 0/8 | 1 |
 | [7. Defensive Fundamentals](phase-07-defensive-fundamentals/) | 44–51 | ⬜⬜⬜⬜⬜⬜⬜⬜ 0/8 | 0 |
-| [8. Specialization Branch](phase-08-specialization-branch/) | 52–61 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0/10 | 0 |
+| [8. Specialisation Branch](phase-08-specialisation-branch/) | 52–61 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0/10 | 0 |
 | [9. Advanced Topics & Career Prep](phase-09-advanced-topics/) | 62–71 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0/10 | 0 |
 
 ### Latest entries

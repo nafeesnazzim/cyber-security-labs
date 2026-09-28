@@ -6,7 +6,7 @@
 
 | Week | Topic | Status | Entries |
 |---|---|---|---|
-| Week 62 | MITRE ATT&CK deep dive & threat modeling | ⬜ | — |
+| Week 62 | MITRE ATT&CK deep dive & threat modelling | ⬜ | — |
 | Week 63 | Malware analysis fundamentals | ⬜ | — |
 | Week 64 | AI & LLM security | ⬜ | — |
 | Week 65 | Cloud security breadth: a quick Azure overview | ⬜ | — |

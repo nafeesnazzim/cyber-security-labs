@@ -368,8 +368,8 @@
   },
   {
    "number": 8,
-   "title": "Specialization Branch",
-   "folder": "phase-08-specialization-branch",
+   "title": "Specialisation Branch",
+   "folder": "phase-08-specialisation-branch",
    "cert_alignment": "the AD-attack weeks mirror what OSCP's PEN-200 course actually spends most of its time on today (kerberoasting, AS-REP roasting, ACL abuse, ADCS exploitation — AD content now dominates that course, with web app testing and buffer overflow work reduced from earlier versions); the AWS weeks map to AWS Certified Security – Specialty's six current domains.",
    "weeks": [
     {
@@ -438,9 +438,9 @@
     {
      "first": 61,
      "last": 61,
-     "title": "specialization capstone",
+     "title": "specialisation capstone",
      "checkpoint": true,
-     "folder": "week-61-checkpoint-specialization-capstone"
+     "folder": "week-61-checkpoint-specialisation-capstone"
     }
    ]
   },
@@ -453,7 +453,7 @@
     {
      "first": 62,
      "last": 62,
-     "title": "MITRE ATT&CK deep dive & threat modeling",
+     "title": "MITRE ATT&CK deep dive & threat modelling",
      "checkpoint": false,
      "folder": "week-62-mitre-attack-deep-dive-and-threat-modelling"
     },
