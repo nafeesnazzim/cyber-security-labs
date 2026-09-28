@@ -47,6 +47,10 @@ phase-02-networking/
 ```
 A week is marked ✅ once it has both learning notes and a hands-on lab. Checkpoint weeks (🔄) consolidate each phase.
 
+## Extra practice (outside the roadmap)
+Boot2root VMs and other practice done for its own sake, not tied to a roadmap phase/week:
+- [EH Practical Exam Prep](extra-practice/eh-exam-prep/): VulnHub's DC series, for my Ethical Hacking module's practical exam
+
 ## Tools practised in the lab
 Wireshark (packet analysis) · Nmap and OpenVAS (vulnerability scanning) · Metasploit · Linux (Debian, Kali) and Windows administration · Python and Bash
 
