@@ -10,5 +10,6 @@ detection view alongside the offensive walkthrough, not just "how I got root".
 
 | Date | Machine | Writeup | ATT&CK |
 |---|---|---|---|
+| 2026-09-28 | DC-1 | [writeup](2026-09-28-lab-dc1.md) | T1595.002, T1046, T1190, T1548.001 |
 
 [← Back to the main portfolio](../../README.md)
