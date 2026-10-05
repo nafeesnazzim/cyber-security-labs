@@ -2,8 +2,8 @@
 title: "Python TCP Port Scanner"
 date: 2026-09-26
 type: lab
-phase: 4
-week: 29
+phase: 2
+week: 7
 source: Homelab
 tools: [Python, socket]
 tags: [python, port-scanning, networking, tooling]
@@ -13,7 +13,7 @@ tags: [python, port-scanning, networking, tooling]
 
 Source code: [`port-scanner/port_scanner.py`](port-scanner/port_scanner.py)
 
-A Python TCP connect scanner built with the `socket` module and tested against hosts in my isolated home lab (see [homelab build](../../phase-03-operating-systems/week-22-homelab-build/2026-09-26-lab-homelab-build.md)).
+A Python TCP connect scanner built with the `socket` module and tested against hosts in my isolated home lab (see [homelab build](../../phase-01-foundations/week-04-linux-command-line-part-1/2026-09-26-lab-homelab-build.md)).
 
 ## What it does
 For each port in the chosen range, the scanner attempts a full TCP connection with `connect_ex`. If the connection succeeds, the port is reported as open, together with its usual service name. Ports are scanned in parallel threads to keep scans fast.

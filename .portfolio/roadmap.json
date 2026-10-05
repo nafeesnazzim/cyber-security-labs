@@ -1,525 +1,99 @@
 {
  "source": "Self Study Journey roadmap (Obsidian: cybersecurity-roadmap.md)",
- "total_weeks": 71,
+ "total_weeks": 38,
  "phases": [
   {
    "number": 1,
-   "title": "Foundations & Security Mindset",
+   "title": "Foundations & the Defender's Baseline",
    "folder": "phase-01-foundations",
-   "cert_alignment": "this is roughly the Security Principles domain of ISC2's entry-level Certified in Cybersecurity (CC), and Security+'s Domain 1 (General Security Concepts) — both exist, in different words, as a \"what even is security\" primer before the real domains start.",
+   "cert_alignment": "consolidation ground that maps onto Security+'s General Security Concepts and ISC2 CC's Security Principles and Network Security domains — the \"what even is security\" and \"how does a network work\" baseline every later cloud and detection skill assumes.",
    "weeks": [
-    {
-     "first": 1,
-     "last": 1,
-     "title": "What security actually is",
-     "checkpoint": false,
-     "folder": "week-01-what-security-actually-is"
-    },
-    {
-     "first": 2,
-     "last": 2,
-     "title": "How computers actually work, underneath",
-     "checkpoint": false,
-     "folder": "week-02-how-computers-actually-work"
-    },
-    {
-     "first": 3,
-     "last": 3,
-     "title": "How the internet actually works (10,000-foot view)",
-     "checkpoint": false,
-     "folder": "week-03-how-the-internet-actually-works"
-    },
-    {
-     "first": 4,
-     "last": 4,
-     "title": "career landscape & mindset consolidation",
-     "checkpoint": true,
-     "folder": "week-04-checkpoint-career-landscape-and-mindset"
-    }
+    {"first": 1, "last": 1, "title": "Security foundations & crypto, consolidated", "checkpoint": false, "folder": "week-01-security-foundations-and-crypto"},
+    {"first": 2, "last": 2, "title": "Networking essentials & subnetting", "checkpoint": false, "folder": "week-02-networking-essentials-and-subnetting"},
+    {"first": 3, "last": 3, "title": "Packet analysis with Wireshark", "checkpoint": false, "folder": "week-03-packet-analysis-with-wireshark"},
+    {"first": 4, "last": 4, "title": "Linux command line, part 1", "checkpoint": false, "folder": "week-04-linux-command-line-part-1"},
+    {"first": 5, "last": 5, "title": "Linux command line, part 2: text processing for logs", "checkpoint": false, "folder": "week-05-linux-command-line-part-2"},
+    {"first": 6, "last": 6, "title": "Linux consolidation", "checkpoint": true, "folder": "week-06-checkpoint-linux-consolidation"}
    ]
   },
   {
    "number": 2,
-   "title": "Networking",
-   "folder": "phase-02-networking",
-   "cert_alignment": "no security cert has a dedicated networking domain — that's what CompTIA's separate Network+ exam is for. Every security cert from ISC2's CC up through OSCP quietly assumes this phase as a prerequisite without ever naming it as a domain.",
+   "title": "Scripting for Cloud Security",
+   "folder": "phase-02-scripting",
+   "cert_alignment": "not a named cert domain, but the quiet enabler behind every cloud security role — the boto3 audit scripting here is exactly the automation AWS's own Security Specialty assumes you can do, and the PowerShell maps onto Windows log work in CySA+/Security+ Security Operations.",
    "weeks": [
-    {
-     "first": 5,
-     "last": 5,
-     "title": "OSI and TCP/IP models",
-     "checkpoint": false,
-     "folder": "week-05-osi-and-tcp-ip-models"
-    },
-    {
-     "first": 6,
-     "last": 6,
-     "title": "IP addressing & subnetting",
-     "checkpoint": false,
-     "folder": "week-06-ip-addressing-and-subnetting"
-    },
-    {
-     "first": 7,
-     "last": 7,
-     "title": "Core protocols: TCP, UDP, and the services riding on them",
-     "checkpoint": false,
-     "folder": "week-07-core-protocols-tcp-udp-and-services"
-    },
-    {
-     "first": 8,
-     "last": 8,
-     "title": "DNS, ARP, switching & routing basics",
-     "checkpoint": false,
-     "folder": "week-08-dns-arp-switching-and-routing"
-    },
-    {
-     "first": 9,
-     "last": 9,
-     "title": "Packet analysis with Wireshark",
-     "checkpoint": false,
-     "folder": "week-09-packet-analysis-with-wireshark"
-    },
-    {
-     "first": 10,
-     "last": 10,
-     "title": "networking consolidation",
-     "checkpoint": true,
-     "folder": "week-10-checkpoint-networking-consolidation"
-    }
+    {"first": 7, "last": 7, "title": "Python, refreshed and security-flavoured", "checkpoint": false, "folder": "week-07-python-refreshed-security-flavoured"},
+    {"first": 8, "last": 8, "title": "Talking to APIs with Python", "checkpoint": false, "folder": "week-08-talking-to-apis-with-python"},
+    {"first": 9, "last": 9, "title": "boto3, part 1: reading your AWS account in code", "checkpoint": false, "folder": "week-09-boto3-part-1-reading-your-account"},
+    {"first": 10, "last": 10, "title": "boto3, part 2: your three audit scripts", "checkpoint": false, "folder": "week-10-boto3-part-2-three-audit-scripts"},
+    {"first": 11, "last": 11, "title": "PowerShell basics & a small end-to-end tool", "checkpoint": true, "folder": "week-11-checkpoint-powershell-and-end-to-end-tool"}
    ]
   },
   {
    "number": 3,
-   "title": "Operating Systems (Linux + Windows) & Homelab Build",
-   "folder": "phase-03-operating-systems",
-   "cert_alignment": "again, no cert names this as a domain — but every hands-on practical exam (eJPT's 48-hour live lab, OSCP's exam, CEH's practical track) assumes this fluency exists before you sit down. This is the phase that determines whether those exams feel achievable or brutal.",
+   "title": "AWS Core & Secure Configuration",
+   "folder": "phase-03-aws-core",
+   "cert_alignment": "maps directly onto AWS Certified Cloud Practitioner (CLF-C02) and the IAM, Infrastructure Security and Data Protection domains of AWS Certified Security – Specialty (SCS-C02) — IAM being the single largest Specialty domain, which is why this phase over-invests there.",
    "weeks": [
-    {
-     "first": 11,
-     "last": 18,
-     "title": "Linux Command Line Mastery, via The Linux Command Line by William Shotts",
-     "checkpoint": false,
-     "folder": "weeks-11-18-linux-command-line-mastery"
-    },
-    {
-     "first": 19,
-     "last": 19,
-     "title": "Windows fundamentals",
-     "checkpoint": false,
-     "folder": "week-19-windows-fundamentals"
-    },
-    {
-     "first": 20,
-     "last": 20,
-     "title": "Windows users, groups & NTFS permissions",
-     "checkpoint": false,
-     "folder": "week-20-windows-users-groups-and-ntfs-permissions"
-    },
-    {
-     "first": 21,
-     "last": 21,
-     "title": "Active Directory concepts (theory, before the lab)",
-     "checkpoint": false,
-     "folder": "week-21-active-directory-concepts"
-    },
-    {
-     "first": 22,
-     "last": 22,
-     "title": "Homelab build",
-     "checkpoint": false,
-     "folder": "week-22-homelab-build"
-    },
-    {
-     "first": 23,
-     "last": 23,
-     "title": "OS & homelab consolidation",
-     "checkpoint": true,
-     "folder": "week-23-checkpoint-os-and-homelab-consolidation"
-    }
+    {"first": 12, "last": 12, "title": "AWS foundations & the shared responsibility model", "checkpoint": false, "folder": "week-12-aws-foundations-and-shared-responsibility"},
+    {"first": 13, "last": 13, "title": "IAM in depth", "checkpoint": false, "folder": "week-13-iam-in-depth"},
+    {"first": 14, "last": 14, "title": "Networking & storage in AWS: VPC and S3", "checkpoint": false, "folder": "week-14-vpc-and-s3"},
+    {"first": 15, "last": 15, "title": "Logging & visibility in AWS", "checkpoint": false, "folder": "week-15-logging-and-visibility-in-aws"},
+    {"first": 16, "last": 16, "title": "Cloud misconfigurations, the attacker's-eye view", "checkpoint": false, "folder": "week-16-cloud-misconfigurations"},
+    {"first": 17, "last": 17, "title": "cloud audit + certification decision point", "checkpoint": true, "folder": "week-17-checkpoint-cloud-audit-and-cert-decision"}
    ]
   },
   {
    "number": 4,
-   "title": "Scripting & Programming for Security",
-   "folder": "phase-04-scripting",
-   "cert_alignment": "not a named domain anywhere, but it's the quiet enabler behind eJPT's and OSCP's practical exams, both of which expect you to script small automations mid-engagement rather than do everything by hand.",
+   "title": "The Attacker's View (light)",
+   "folder": "phase-04-attackers-view",
+   "cert_alignment": "touches eJPT and CEH reconnaissance/scanning/web content, but taught for recognition rather than tradecraft — the real payoff is the detection view, which feeds CySA+ Vulnerability Management and the hunting work in Phase 6.",
    "weeks": [
-    {
-     "first": 24,
-     "last": 24,
-     "title": "Python fundamentals",
-     "checkpoint": false,
-     "folder": "week-24-python-fundamentals"
-    },
-    {
-     "first": 25,
-     "last": 25,
-     "title": "Files, strings & your first security-flavoured script",
-     "checkpoint": false,
-     "folder": "week-25-files-strings-and-first-security-script"
-    },
-    {
-     "first": 26,
-     "last": 26,
-     "title": "Bash scripting fundamentals",
-     "checkpoint": false,
-     "folder": "week-26-bash-scripting-fundamentals"
-    },
-    {
-     "first": 27,
-     "last": 27,
-     "title": "Talking to APIs with Python",
-     "checkpoint": false,
-     "folder": "week-27-talking-to-apis-with-python"
-    },
-    {
-     "first": 28,
-     "last": 28,
-     "title": "Regex for parsing logs and data, in Python",
-     "checkpoint": false,
-     "folder": "week-28-regex-for-parsing-logs"
-    },
-    {
-     "first": 29,
-     "last": 29,
-     "title": "build a small end-to-end tool",
-     "checkpoint": true,
-     "folder": "week-29-checkpoint-build-a-small-end-to-end-tool"
-    }
+    {"first": 18, "last": 18, "title": "Reconnaissance & scanning", "checkpoint": false, "folder": "week-18-reconnaissance-and-scanning"},
+    {"first": 19, "last": 19, "title": "Vulnerability & web application basics", "checkpoint": false, "folder": "week-19-vulnerability-and-web-app-basics"},
+    {"first": 20, "last": 20, "title": "password attacks + first full box write-up", "checkpoint": true, "folder": "week-20-checkpoint-password-attacks-and-first-box"}
    ]
   },
   {
    "number": 5,
-   "title": "Core Security Concepts",
-   "folder": "phase-05-core-security-concepts",
-   "cert_alignment": "this phase covers Security+'s Domains 1 and 3 (General Security Concepts, Security Architecture) and ISC2 CC's Access Controls Concepts domain almost point for point — if you only ever sat one of those two exams, this phase alone would cover a genuinely large share of it.",
+   "title": "Windows, AD & Logs",
+   "folder": "phase-05-windows-ad-logs",
+   "cert_alignment": "the Windows event-log and Active Directory detection content is core CySA+ and Security+ Security Operations material — most enterprise telemetry a hunter reads is Windows and AD, so this is read-the-logs knowledge, not attack knowledge.",
    "weeks": [
-    {
-     "first": 30,
-     "last": 30,
-     "title": "CIA triad revisited, and core security principles",
-     "checkpoint": false,
-     "folder": "week-30-cia-triad-revisited"
-    },
-    {
-     "first": 31,
-     "last": 31,
-     "title": "Cryptography fundamentals",
-     "checkpoint": false,
-     "folder": "week-31-cryptography-fundamentals"
-    },
-    {
-     "first": 32,
-     "last": 32,
-     "title": "PKI & how HTTPS actually works",
-     "checkpoint": false,
-     "folder": "week-32-pki-and-how-https-actually-works"
-    },
-    {
-     "first": 33,
-     "last": 33,
-     "title": "Authentication concepts",
-     "checkpoint": false,
-     "folder": "week-33-authentication-concepts"
-    },
-    {
-     "first": 34,
-     "last": 34,
-     "title": "Access control models",
-     "checkpoint": false,
-     "folder": "week-34-access-control-models"
-    },
-    {
-     "first": 35,
-     "last": 35,
-     "title": "tie it all together",
-     "checkpoint": true,
-     "folder": "week-35-checkpoint-tie-it-all-together"
-    }
+    {"first": 21, "last": 21, "title": "Windows fundamentals & event logs", "checkpoint": false, "folder": "week-21-windows-fundamentals-and-event-logs"},
+    {"first": 22, "last": 22, "title": "Active Directory & Kerberos concepts", "checkpoint": false, "folder": "week-22-active-directory-and-kerberos-concepts"},
+    {"first": 23, "last": 23, "title": "what AD attacks look like in logs", "checkpoint": true, "folder": "week-23-checkpoint-ad-attacks-in-logs"}
    ]
   },
   {
    "number": 6,
-   "title": "Offensive Fundamentals",
-   "folder": "phase-06-offensive-fundamentals",
-   "cert_alignment": "this phase tracks eJPT's Host and Network Penetration Testing (35% of that exam) and Web Application Penetration Testing (15%) domains closely, and touches a genuine third of CEH v13's 20 modules — reconnaissance, scanning, system hacking, web/SQL injection, and cryptography specifically. Worth knowing: both eJPT and CEH added AI-assisted attacker tooling to their 2026 versions (AI-driven recon, AI-generated payloads) — this phase covers the classic manual technique first, on purpose, and the AI layer on top of it gets its own dedicated week later, in Phase 9.",
+   "title": "Detection & Threat Hunting",
+   "folder": "phase-06-detection-hunting",
+   "cert_alignment": "the heart of the roadmap and, almost domain for domain, CompTIA CySA+ (Security Operations, Vulnerability Management, Incident Response) plus the Detection and Incident Response domains of AWS Security – Specialty. This is where the cloud-hunting skill is actually built.",
    "weeks": [
-    {
-     "first": 36,
-     "last": 36,
-     "title": "Reconnaissance & OSINT fundamentals",
-     "checkpoint": false,
-     "folder": "week-36-reconnaissance-and-osint-fundamentals"
-    },
-    {
-     "first": 37,
-     "last": 37,
-     "title": "Scanning & enumeration with Nmap",
-     "checkpoint": false,
-     "folder": "week-37-scanning-and-enumeration-with-nmap"
-    },
-    {
-     "first": 38,
-     "last": 38,
-     "title": "Vulnerability assessment",
-     "checkpoint": false,
-     "folder": "week-38-vulnerability-assessment"
-    },
-    {
-     "first": 39,
-     "last": 39,
-     "title": "Web application security: OWASP Top 10 overview",
-     "checkpoint": false,
-     "folder": "week-39-owasp-top-10-overview"
-    },
-    {
-     "first": 40,
-     "last": 40,
-     "title": "Web app hands-on: PortSwigger Web Security Academy begins",
-     "checkpoint": false,
-     "folder": "week-40-portswigger-web-security-academy"
-    },
-    {
-     "first": 41,
-     "last": 41,
-     "title": "Exploitation basics with Metasploit",
-     "checkpoint": false,
-     "folder": "week-41-exploitation-basics-with-metasploit"
-    },
-    {
-     "first": 42,
-     "last": 42,
-     "title": "Password attacks",
-     "checkpoint": false,
-     "folder": "week-42-password-attacks"
-    },
-    {
-     "first": 43,
-     "last": 43,
-     "title": "first full box, start to finish",
-     "checkpoint": true,
-     "folder": "week-43-checkpoint-first-full-box"
-    }
+    {"first": 24, "last": 24, "title": "The blue team & the hunting mindset", "checkpoint": false, "folder": "week-24-blue-team-and-hunting-mindset"},
+    {"first": 25, "last": 25, "title": "SIEM fundamentals with Splunk", "checkpoint": false, "folder": "week-25-siem-fundamentals-with-splunk"},
+    {"first": 26, "last": 26, "title": "CloudTrail deep dive: the cloud hunter's primary data", "checkpoint": false, "folder": "week-26-cloudtrail-deep-dive"},
+    {"first": 27, "last": 27, "title": "GuardDuty & Security Hub", "checkpoint": false, "folder": "week-27-guardduty-and-security-hub"},
+    {"first": 28, "last": 28, "title": "Querying logs at scale with Athena", "checkpoint": false, "folder": "week-28-querying-logs-with-athena"},
+    {"first": 29, "last": 29, "title": "MITRE ATT&CK Cloud & hunting methodology", "checkpoint": false, "folder": "week-29-mitre-attack-cloud-and-methodology"},
+    {"first": 30, "last": 30, "title": "build your five detections", "checkpoint": true, "folder": "week-30-checkpoint-build-your-five-detections"},
+    {"first": 31, "last": 31, "title": "Incident response & light forensics", "checkpoint": false, "folder": "week-31-incident-response-and-light-forensics"},
+    {"first": 32, "last": 32, "title": "run two or three real hunts", "checkpoint": true, "folder": "week-32-checkpoint-run-real-hunts"}
    ]
   },
   {
    "number": 7,
-   "title": "Defensive Fundamentals",
-   "folder": "phase-07-defensive-fundamentals",
-   "cert_alignment": "this phase is, almost domain for domain, CompTIA CySA+ (Security Operations, Vulnerability Management, Incident Response, Reporting) — and it's also Security+'s single largest domain by weight (Security Operations, 28% of that exam). If any one phase in this roadmap is \"secretly the most exam-relevant,\" it's this one, not Phase 6.",
+   "title": "Breadth & Career",
+   "folder": "phase-07-breadth-career",
+   "cert_alignment": "container and Kubernetes security and the AI/LLM week track additions that multiple cert bodies made in 2026; the career weeks are not examined anywhere but are where the portfolio turns into a job.",
    "weeks": [
-    {
-     "first": 44,
-     "last": 44,
-     "title": "The blue team mindset & SOC operations overview",
-     "checkpoint": false,
-     "folder": "week-44-blue-team-mindset-and-soc-operations"
-    },
-    {
-     "first": 45,
-     "last": 45,
-     "title": "Logging & monitoring fundamentals",
-     "checkpoint": false,
-     "folder": "week-45-logging-and-monitoring-fundamentals"
-    },
-    {
-     "first": 46,
-     "last": 46,
-     "title": "SIEM concepts",
-     "checkpoint": false,
-     "folder": "week-46-siem-concepts"
-    },
-    {
-     "first": 47,
-     "last": 47,
-     "title": "Intrusion detection concepts",
-     "checkpoint": false,
-     "folder": "week-47-intrusion-detection-concepts"
-    },
-    {
-     "first": 48,
-     "last": 48,
-     "title": "Incident response fundamentals",
-     "checkpoint": false,
-     "folder": "week-48-incident-response-fundamentals"
-    },
-    {
-     "first": 49,
-     "last": 49,
-     "title": "Threat intelligence & MITRE ATT&CK introduction",
-     "checkpoint": false,
-     "folder": "week-49-threat-intelligence-and-mitre-attack"
-    },
-    {
-     "first": 50,
-     "last": 50,
-     "title": "Digital forensics fundamentals",
-     "checkpoint": false,
-     "folder": "week-50-digital-forensics-fundamentals"
-    },
-    {
-     "first": 51,
-     "last": 51,
-     "title": "blue team scenario end-to-end",
-     "checkpoint": true,
-     "folder": "week-51-checkpoint-blue-team-scenario-end-to-end"
-    }
-   ]
-  },
-  {
-   "number": 8,
-   "title": "Specialisation Branch",
-   "folder": "phase-08-specialisation-branch",
-   "cert_alignment": "the AD-attack weeks mirror what OSCP's PEN-200 course actually spends most of its time on today (kerberoasting, AS-REP roasting, ACL abuse, ADCS exploitation — AD content now dominates that course, with web app testing and buffer overflow work reduced from earlier versions); the AWS weeks map to AWS Certified Security – Specialty's six current domains.",
-   "weeks": [
-    {
-     "first": 52,
-     "last": 52,
-     "title": "Branch point: survey and decide",
-     "checkpoint": false,
-     "folder": "week-52-branch-point-survey-and-decide"
-    },
-    {
-     "first": 53,
-     "last": 53,
-     "title": "Web app pentesting deep dive, part 1",
-     "checkpoint": false,
-     "folder": "week-53-web-app-pentesting-deep-dive-part-1"
-    },
-    {
-     "first": 54,
-     "last": 54,
-     "title": "Web app pentesting deep dive, part 2: Burp Suite",
-     "checkpoint": false,
-     "folder": "week-54-web-app-pentesting-deep-dive-part-2-burp"
-    },
-    {
-     "first": 55,
-     "last": 55,
-     "title": "Active Directory attacks in your homelab",
-     "checkpoint": false,
-     "folder": "week-55-active-directory-attacks-in-your-homelab"
-    },
-    {
-     "first": 56,
-     "last": 56,
-     "title": "Cloud security fundamentals (AWS)",
-     "checkpoint": false,
-     "folder": "week-56-cloud-security-fundamentals-aws"
-    },
-    {
-     "first": 57,
-     "last": 57,
-     "title": "AWS offensive security hands-on",
-     "checkpoint": false,
-     "folder": "week-57-aws-offensive-security-hands-on"
-    },
-    {
-     "first": 58,
-     "last": 58,
-     "title": "cloud pentest write-up",
-     "checkpoint": true,
-     "folder": "week-58-checkpoint-cloud-pentest-write-up"
-    },
-    {
-     "first": 59,
-     "last": 59,
-     "title": "Advanced exploitation: buffer overflow conceptual walkthrough (optional depth)",
-     "checkpoint": false,
-     "folder": "week-59-buffer-overflow-conceptual-walkthrough"
-    },
-    {
-     "first": 60,
-     "last": 60,
-     "title": "Professional methodology & reporting",
-     "checkpoint": false,
-     "folder": "week-60-professional-methodology-and-reporting"
-    },
-    {
-     "first": 61,
-     "last": 61,
-     "title": "specialisation capstone",
-     "checkpoint": true,
-     "folder": "week-61-checkpoint-specialisation-capstone"
-    }
-   ]
-  },
-  {
-   "number": 9,
-   "title": "Advanced Topics & Career Prep",
-   "folder": "phase-09-advanced-topics",
-   "cert_alignment": "the new AI/LLM security week tracks something genuinely notable — CEH v13, eJPT v2, and Security+'s April 2026 objective refresh all independently added generative-AI security content within months of each other in 2026. That's not one vendor's pet feature; that's the entire industry moving at once, which is exactly the kind of thing worth building into a \"future ready\" roadmap rather than bolting on later.",
-   "weeks": [
-    {
-     "first": 62,
-     "last": 62,
-     "title": "MITRE ATT&CK deep dive & threat modelling",
-     "checkpoint": false,
-     "folder": "week-62-mitre-attack-deep-dive-and-threat-modelling"
-    },
-    {
-     "first": 63,
-     "last": 63,
-     "title": "Malware analysis fundamentals",
-     "checkpoint": false,
-     "folder": "week-63-malware-analysis-fundamentals"
-    },
-    {
-     "first": 64,
-     "last": 64,
-     "title": "AI & LLM security",
-     "checkpoint": false,
-     "folder": "week-64-ai-and-llm-security"
-    },
-    {
-     "first": 65,
-     "last": 65,
-     "title": "Cloud security breadth: a quick Azure overview",
-     "checkpoint": false,
-     "folder": "week-65-cloud-security-breadth-a-quick-azure-overview"
-    },
-    {
-     "first": 66,
-     "last": 66,
-     "title": "Container & Kubernetes security",
-     "checkpoint": false,
-     "folder": "week-66-container-and-kubernetes-security"
-    },
-    {
-     "first": 67,
-     "last": 67,
-     "title": "Building your portfolio & personal brand",
-     "checkpoint": false,
-     "folder": "week-67-building-your-portfolio-and-personal-brand"
-    },
-    {
-     "first": 68,
-     "last": 68,
-     "title": "CV, interview prep & the job market landscape",
-     "checkpoint": false,
-     "folder": "week-68-cv-interview-prep-and-job-market"
-    },
-    {
-     "first": 69,
-     "last": 69,
-     "title": "Certification decision point",
-     "checkpoint": false,
-     "folder": "week-69-certification-decision-point"
-    },
-    {
-     "first": 70,
-     "last": 70,
-     "title": "Capstone project: full attack simulation",
-     "checkpoint": false,
-     "folder": "week-70-capstone-project-full-attack-simulation"
-    },
-    {
-     "first": 71,
-     "last": 71,
-     "title": "roadmap review & what's next",
-     "checkpoint": true,
-     "folder": "week-71-checkpoint-roadmap-review-and-whats-next"
-    }
+    {"first": 33, "last": 33, "title": "Container & Kubernetes security", "checkpoint": false, "folder": "week-33-container-and-kubernetes-security"},
+    {"first": 34, "last": 34, "title": "Azure overview (breadth for the UK market)", "checkpoint": false, "folder": "week-34-azure-overview"},
+    {"first": 35, "last": 35, "title": "AI & LLM security (optional)", "checkpoint": false, "folder": "week-35-ai-and-llm-security"},
+    {"first": 36, "last": 36, "title": "Portfolio & personal brand", "checkpoint": false, "folder": "week-36-portfolio-and-personal-brand"},
+    {"first": 37, "last": 37, "title": "CV, LinkedIn & interview prep", "checkpoint": false, "folder": "week-37-cv-linkedin-and-interview-prep"},
+    {"first": 38, "last": 38, "title": "capstone & skills audit", "checkpoint": true, "folder": "week-38-checkpoint-capstone-and-skills-audit"}
    ]
   }
  ]
