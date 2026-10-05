@@ -2,8 +2,8 @@
 title: "Homelab Build: Isolated VirtualBox Lab"
 date: 2026-09-26
 type: lab
-phase: 3
-week: 22
+phase: 1
+week: 4
 source: Homelab
 tools: [VirtualBox, Kali Linux, Windows, Wireshark, Nmap, OpenVAS, Metasploit]
 tags: [homelab, virtualbox, network-isolation, lab-safety]

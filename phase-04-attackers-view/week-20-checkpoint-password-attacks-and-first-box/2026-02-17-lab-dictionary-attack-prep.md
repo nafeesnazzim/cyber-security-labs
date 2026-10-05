@@ -2,8 +2,8 @@
 title: "Dictionary Attack Prep: Login Responses and Wordlists"
 date: 2026-02-17
 type: lab
-phase: 6
-week: 42
+phase: 4
+week: 20
 source: LabEx guided lab
 category: Authentication
 attack: [T1110.001]

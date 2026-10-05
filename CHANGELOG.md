@@ -6,9 +6,9 @@ Every entry added to this portfolio, newest first.
 
 ## 2026-09
 
-- **2026-09-26** · 🧪 Lab · [Python TCP Port Scanner](phase-04-scripting/week-29-checkpoint-build-a-small-end-to-end-tool/2026-09-26-lab-python-port-scanner.md) · Phase 4, Week 29
-- **2026-09-26** · 🧪 Lab · [Homelab Build: Isolated VirtualBox Lab](phase-03-operating-systems/week-22-homelab-build/2026-09-26-lab-homelab-build.md) · Phase 3, Week 22
+- **2026-09-26** · 🧪 Lab · [Python TCP Port Scanner](phase-02-scripting/week-07-python-refreshed-security-flavoured/2026-09-26-lab-python-port-scanner.md) · Phase 2, Week 7
+- **2026-09-26** · 🧪 Lab · [Homelab Build: Isolated VirtualBox Lab](phase-01-foundations/week-04-linux-command-line-part-1/2026-09-26-lab-homelab-build.md) · Phase 1, Week 4
 
 ## 2026-02
 
-- **2026-02-17** · 🧪 Lab · [Dictionary Attack Prep: Login Responses and Wordlists](phase-06-offensive-fundamentals/week-42-password-attacks/2026-02-17-lab-dictionary-attack-prep.md) · Phase 6, Week 42
+- **2026-02-17** · 🧪 Lab · [Dictionary Attack Prep: Login Responses and Wordlists](phase-04-attackers-view/week-20-checkpoint-password-attacks-and-first-box/2026-02-17-lab-dictionary-attack-prep.md) · Phase 4, Week 20
