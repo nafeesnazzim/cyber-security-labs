@@ -18,5 +18,6 @@ detection view alongside the offensive walkthrough, not just "how I got root".
 | 2026-10-07 | DC-6 | [writeup](2026-10-07-lab-dc6.md) | T1595.001, T1190, T1110.002, T1078, T1059.004, T1068, T1552.001 |
 | 2026-10-07 | DC-7 | [writeup](2026-10-07-lab-dc7.md) | T1595.001, T1190, T1552.001, T1078, T1059.004, T1053.003, T1068 |
 | 2026-10-07 | DC-8 | [writeup](2026-10-07-lab-dc8.md) | T1595.001, T1190, T1110.002, T1078, T1059.004, T1068 |
+| 2026-10-07 | DC-9 | [writeup](2026-10-07-lab-dc9.md) | T1595.001, T1190, T1110.002, T1078, T1552.001, T1205.001, T1548.003 |
 
 [← Back to the main portfolio](../../README.md)
