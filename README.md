@@ -1,4 +1,4 @@
-# Cybersecurity Labs: My Self Study Journey
+# Cyber Security Labs: My Self Study Journey
 
 Hands-on practice and learning notes I build and maintain alongside my BSc (Hons) Cyber Security at the University of Staffordshire (APIIT, Colombo).
 
