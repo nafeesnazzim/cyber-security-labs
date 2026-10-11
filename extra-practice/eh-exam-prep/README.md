@@ -19,5 +19,8 @@ detection view alongside the offensive walkthrough, not just "how I got root".
 | 2026-10-07 | DC-7 | [writeup](2026-10-07-lab-dc7.md) | T1595.001, T1190, T1552.001, T1078, T1059.004, T1053.003, T1068 |
 | 2026-10-07 | DC-8 | [writeup](2026-10-07-lab-dc8.md) | T1595.001, T1190, T1110.002, T1078, T1059.004, T1068 |
 | 2026-10-07 | DC-9 | [writeup](2026-10-07-lab-dc9.md) | T1595.001, T1190, T1110.002, T1078, T1552.001, T1205.001, T1548.003 |
+| 2026-10-08 | PCAP triage workflow | [writeup](2026-10-08-lab-pcap-triage-workflow.md) | T1046 |
+| 2026-10-08 | Wireshark display filters | [writeup](2026-10-08-lab-pcap-display-filters.md) | T1105, T1021.002, T1071.001 |
+| 2026-10-08 | DDoS, botnet and scan patterns | [writeup](2026-10-08-lab-pcap-ddos-botnet-scan-patterns.md) | T1071.001, T1571, T1105 |
 
 [← Back to the main portfolio](../../README.md)
