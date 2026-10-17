@@ -36,7 +36,7 @@ I wrote the routine as five questions, each tied to one Wireshark window:
 - **Who most:** 192.168.56.102 is the busiest endpoint (3,603 packets: 1,316 sent, 2,287 received). 192.168.56.103 is almost its mirror image (3,449 packets: 2,213 sent, 1,236 received), so .103 sends nearly twice what it receives and .102 receives nearly twice what it sends.
 - **What broke:** Expert Information lists **1,004** TCP "Connection reset (RST)" warnings, against **1,009** connection requests (SYN), only **9** SYN+ACK acknowledgements and 10 FIN closes. The only retransmission warnings are mDNS ones (66 DNS response retransmissions, 44 DNS query retransmissions, 54 DNS responses missing), not TCP.
 
-My notes do not name the attack in this capture. The numbers alone (about 1,009 connection attempts, 9 accepted, 1,004 reset, between two hosts) are consistent with one host probing many ports on another, which would explain both the 1,009 TCP conversations and the Tx/Rx asymmetry. That is an inference from the counts; I did not open the packets to confirm which ports were probed.
+I did not name the attack in this capture. The numbers alone (about 1,009 connection attempts, 9 accepted, 1,004 reset, between two hosts) are consistent with one host probing many ports on another, which would explain both the 1,009 TCP conversations and the Tx/Rx asymmetry. That is an inference from the counts; I did not open the packets to confirm which ports were probed.
 
 ## How I found it
 

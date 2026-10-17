@@ -102,7 +102,7 @@ Build the vocabulary and mental models that every later week relies on: the CIA 
 Blast radius is the amount of damage a single compromise can do. "Preventive controls fail, so defensive controls matter."
 
 ### Five Ws of a good log
-The notebook lists six items: when (timestamp with time zone), who (user or role), what (action), where (source IP, host, region), on what (the resource affected), and whether it worked (success or failure). Principle: baseline first, then anomalies.
+The six items are: when (timestamp with time zone), who (user or role), what (action), where (source IP, host, region), on what (the resource affected), and whether it worked (success or failure). Principle: baseline first, then anomalies.
 
 ### Lab D: CVE triage with real data
 
@@ -122,7 +122,7 @@ The notebook lists six items: when (timestamp with time zone), who (user or role
 
 ### Lab C: breach autopsy, Capital One
 1. Property compromised: confidentiality.
-2. Asset: customer information. Threat: external attacker. Vulnerabilities: misconfigured WAF and over-permissive IAM (a possible third is marked with a question mark in my notes).
+2. Asset: customer information. Threat: external attacker. Vulnerabilities: misconfigured WAF and over-permissive IAM (a possible third is unconfirmed).
 3. Yes, a risk: it was public facing and misconfigured, with valuable assets behind it.
 4. The IAM role had more permissions than required.
 5. Failed or weak controls: the WAF and IAM policies. Missing: alerting and MFA.
@@ -169,7 +169,7 @@ I drew a data-flow diagram with a user, a server and a database bucket. Flows: l
 - Every breach in the table maps to a property in the triad and to a missing basic control: patching, segmentation, least privilege, MFA or monitoring.
 - Scoring a flaw by CVSS alone misleads. CVSS is one metric out of many; if EPSS or KEV show active exploitation, CVSS may matter less. In my triage CVE-2021-44228 ranked first (CVSS 10), and all three CVEs were in KEV.
 - Risk maths gives a way to compare controls by cost against the annual loss they remove (control A was worth buying; B cost more than the risk it removed).
-- Recap answers (numbered as in my notebook; the question text is not in my notes):
+- Recap answers (question text not recorded):
   1. Primarily impacts the availability of a system. Double extortion is when confidentiality is impacted too: sometimes the sensitive information provided is leaked.
   2. No: the risk is low as long as no one can gain physical access to it.
   3. Threat: a factor that can cause damage or harm to a system. Vulnerability: the factor the threat exploits to get in.
@@ -195,7 +195,7 @@ I drew a data-flow diagram with a user, a server and a database bucket. Flows: l
   23-25. Dwell time: how long an attacker is inside before being found. N-day: a fix has been made; zero-day: no fix exists. Blast radius: how much damage can be done.
 
 ## How I found it
-This was a study week, so the evidence is my handwritten notes and lab answers above, not tool output. The source material was a tutor summary of the week plus 12 notebook pages (transcribed in my Drive notes).
+This was a study week, so the evidence is my written lab answers above, not tool output.
 
 ## Fix/remediation
 Controls recorded against each breach and STRIDE threat are in the tables above: patching, segmentation, least privilege, MFA, alerting, backups, DDoS protection and logging.

@@ -12,7 +12,7 @@ Build a short, reusable cheat-sheet of display filters and prove each one agains
 
 ## What I did
 
-I grouped the filters by what they answer, wrote them in my notebook, then ran every one against the capture and screenshotted the result.
+I grouped the filters by what they answer, wrote them down, then ran every one against the capture and screenshotted the result.
 
 | Group | Filter |
 |---|---|
@@ -41,7 +41,7 @@ All times are 2023-03-07, capture clock.
 - **Domain traffic:** 614 packets on ports 88 or 389 are normal Kerberos and LDAP between the workstation and the DC (LDAP bind and search for the machine's own computer object).
 - **ARP:** 105 ARP packets, 54 of them requests; ordinary "who has 172.16.1.1 / .16 / .137" traffic between the workstation, DC and gateway.
 
-My notes list the filters but do not record a verdict on what the traffic is. The sequence above (archive and zip downloads over HTTP, SMB to an external IP, periodic GETs to many different hosts) is what a defender would call suspicious; I have not identified the malware family and do not claim to.
+I did not record a verdict on what the traffic is. The sequence above (archive and zip downloads over HTTP, SMB to an external IP, periodic GETs to many different hosts) is what a defender would call suspicious; I have not identified the malware family and do not claim to.
 
 ## How I found it
 
@@ -146,7 +146,7 @@ tags:
     - attack.t1021.002
 ```
 
-ATT&CK, mapped from the traffic visible in the screenshots (not stated in my notes): [T1105 Ingress Tool Transfer](https://attack.mitre.org/techniques/T1105/) for the HTTP archive downloads, [T1021.002 SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002/) for the `IPC$` and `mise` tree connects, and [T1071.001 Web Protocols](https://attack.mitre.org/techniques/T1071/001/) for the periodic `/drew/` requests.
+ATT&CK, mapped from the traffic visible in the screenshots (my own mapping): [T1105 Ingress Tool Transfer](https://attack.mitre.org/techniques/T1105/) for the HTTP archive downloads, [T1021.002 SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002/) for the `IPC$` and `mise` tree connects, and [T1071.001 Web Protocols](https://attack.mitre.org/techniques/T1071/001/) for the periodic `/drew/` requests.
 
 ## Tools used
 
