@@ -6,10 +6,10 @@
 
 | Week | Topic | Status | Entries |
 |---|---|---|---|
-| Week 1 | Security foundations & crypto, consolidated | ⬜ | — |
+| Week 1 | Security foundations & crypto, consolidated | 🟡 | [📘 Security principles, risk and the assume-breach mindset](week-01-security-foundations-and-crypto/learn-security-principles-risk-assume-breach.md) |
 | Week 2 | Networking essentials & subnetting | ⬜ | — |
 | Week 3 | Packet analysis with Wireshark | ⬜ | — |
-| Week 4 | Linux command line, part 1 | 🟡 | [🧪 Homelab Build: Isolated VirtualBox Lab](week-04-linux-command-line-part-1/2026-09-26-lab-homelab-build.md) |
+| Week 4 | Linux command line, part 1 | 🟡 | [🧪 Homelab Build: Isolated VirtualBox Lab](week-04-linux-command-line-part-1/lab-homelab-build.md) |
 | Week 5 | Linux command line, part 2: text processing for logs | ⬜ | — |
 | Week 6 | 🔄 Checkpoint: Linux consolidation | ⬜ | — |
 

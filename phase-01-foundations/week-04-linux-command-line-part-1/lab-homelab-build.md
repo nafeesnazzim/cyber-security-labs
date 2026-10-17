@@ -1,6 +1,5 @@
 ---
 title: "Homelab Build: Isolated VirtualBox Lab"
-date: 2026-09-26
 type: lab
 phase: 1
 week: 4
