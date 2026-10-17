@@ -7,7 +7,7 @@ tools: [Nmap, CeWL, WPScan, SSH, GTFOBins, vi, sudo, git]
 # DC-2: CeWL Wordlist to Root via WordPress Brute Force and Sudo Git Escape
 
 ## Objective
-Continuing from [DC-1](2026-09-28-lab-dc1.md), compromise DC-2 (VulnHub) from host discovery through to root, as further practice for my Ethical Hacking module's practical exam.
+Continuing from [DC-1](lab-dc1.md), compromise DC-2 (VulnHub) from host discovery through to root, as further practice for my Ethical Hacking module's practical exam.
 
 ## Environment
 - Attacker: Kali Linux, 192.168.56.102 (VirtualBox host-only network)

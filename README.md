@@ -10,13 +10,13 @@ I'm working through a self-designed **38-week roadmap** aimed squarely at **clou
 ## Progress
 
 <!-- PROGRESS:START -->
-![Roadmap progress](https://img.shields.io/badge/roadmap-0%2F38%20weeks%20%280%25%29-2ea44f) ![In progress](https://img.shields.io/badge/in%20progress-3%20weeks-dbab09)
+![Roadmap progress](https://img.shields.io/badge/roadmap-0%2F38%20weeks%20%280%25%29-2ea44f) ![In progress](https://img.shields.io/badge/in%20progress-4%20weeks-dbab09)
 
-**3 entries** across the roadmap. ✅ complete (notes + hands-on) · 🟡 started · ⬜ not started
+**4 entries** across the roadmap. ✅ complete (notes + hands-on) · 🟡 started · ⬜ not started
 
 | Phase | Weeks | Progress | Entries |
 |---|---|---|---|
-| [1. Foundations & the Defender's Baseline](phase-01-foundations/) | 1–6 | ⬜⬜⬜🟡⬜⬜ 0/6 | 1 |
+| [1. Foundations & the Defender's Baseline](phase-01-foundations/) | 1–6 | 🟡⬜⬜🟡⬜⬜ 0/6 | 2 |
 | [2. Scripting for Cloud Security](phase-02-scripting/) | 7–11 | 🟡⬜⬜⬜⬜ 0/5 | 1 |
 | [3. AWS Core & Secure Configuration](phase-03-aws-core/) | 12–17 | ⬜⬜⬜⬜⬜⬜ 0/6 | 0 |
 | [4. The Attacker's View (light)](phase-04-attackers-view/) | 18–20 | ⬜⬜🟡 0/3 | 1 |
@@ -26,11 +26,12 @@ I'm working through a self-designed **38-week roadmap** aimed squarely at **clou
 
 ### Latest entries
 
-| Date | Entry | Type | Week | ATT&CK |
-|---|---|---|---|---|
-| 2026-09-26 | [Homelab Build: Isolated VirtualBox Lab](phase-01-foundations/week-04-linux-command-line-part-1/2026-09-26-lab-homelab-build.md) | Lab | Week 4 | — |
-| 2026-09-26 | [Python TCP Port Scanner](phase-02-scripting/week-07-python-refreshed-security-flavoured/2026-09-26-lab-python-port-scanner.md) | Lab | Week 7 | — |
-| 2026-02-17 | [Dictionary Attack Prep: Login Responses and Wordlists](phase-04-attackers-view/week-20-checkpoint-password-attacks-and-first-box/2026-02-17-lab-dictionary-attack-prep.md) | Lab | Week 20 | [T1110.001](https://attack.mitre.org/techniques/T1110/001/) |
+| Entry | Type | Week | ATT&CK |
+|---|---|---|---|
+| [Dictionary Attack Prep: Login Responses and Wordlists](phase-04-attackers-view/week-20-checkpoint-password-attacks-and-first-box/lab-dictionary-attack-prep.md) | Lab | Week 20 | [T1110.001](https://attack.mitre.org/techniques/T1110/001/) |
+| [Python TCP Port Scanner](phase-02-scripting/week-07-python-refreshed-security-flavoured/lab-python-port-scanner.md) | Lab | Week 7 | — |
+| [Homelab Build: Isolated VirtualBox Lab](phase-01-foundations/week-04-linux-command-line-part-1/lab-homelab-build.md) | Lab | Week 4 | — |
+| [Security principles, risk and the assume-breach mindset](phase-01-foundations/week-01-security-foundations-and-crypto/learn-security-principles-risk-assume-breach.md) | Notes | Week 1 | — |
 
 Full history: [CHANGELOG.md](CHANGELOG.md)
 <!-- PROGRESS:END -->
