@@ -8,7 +8,7 @@
 |---|---|---|---|
 | Week 18 | Reconnaissance & scanning | ⬜ | — |
 | Week 19 | Vulnerability & web application basics | ⬜ | — |
-| Week 20 | 🔄 Checkpoint: password attacks + first full box write-up | 🟡 | [🧪 Dictionary Attack Prep: Login Responses and Wordlists](week-20-checkpoint-password-attacks-and-first-box/2026-02-17-lab-dictionary-attack-prep.md) |
+| Week 20 | 🔄 Checkpoint: password attacks + first full box write-up | 🟡 | [🧪 Dictionary Attack Prep: Login Responses and Wordlists](week-20-checkpoint-password-attacks-and-first-box/lab-dictionary-attack-prep.md) |
 
 📘 learning notes · 🧪 hands-on lab
 

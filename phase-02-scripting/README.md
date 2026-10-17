@@ -6,7 +6,7 @@
 
 | Week | Topic | Status | Entries |
 |---|---|---|---|
-| Week 7 | Python, refreshed and security-flavoured | 🟡 | [🧪 Python TCP Port Scanner](week-07-python-refreshed-security-flavoured/2026-09-26-lab-python-port-scanner.md) |
+| Week 7 | Python, refreshed and security-flavoured | 🟡 | [🧪 Python TCP Port Scanner](week-07-python-refreshed-security-flavoured/lab-python-port-scanner.md) |
 | Week 8 | Talking to APIs with Python | ⬜ | — |
 | Week 9 | boto3, part 1: reading your AWS account in code | ⬜ | — |
 | Week 10 | boto3, part 2: your three audit scripts | ⬜ | — |

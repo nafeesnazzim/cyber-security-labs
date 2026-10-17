@@ -1,6 +1,5 @@
 ---
 title: "Dictionary Attack Prep: Login Responses and Wordlists"
-date: 2026-02-17
 type: lab
 phase: 4
 week: 20
