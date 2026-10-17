@@ -67,7 +67,6 @@ Compromise DC-1 (VulnHub), a deliberately vulnerable VM, from host discovery thr
 14. Hunting for SUID binaries
     ![find SUID binaries](images/dc1/14.png)
 15. Confirming the find SUID escalation
-    ![suid-bait whoami root](images/dc1/15.png)
 16. Root shell via find
     ![root shell whoami](images/dc1/16.png)
 17. Reading the final flag
